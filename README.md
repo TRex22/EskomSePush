@@ -23,6 +23,8 @@ Or install it yourself as:
 
 ## Usage
 
+`id` is found using `areas_search` or `areas_nearby`.
+
 ```ruby
   require 'eskom_se_push'
   client = EskomSePush::Client.new(token: 'Your token here')

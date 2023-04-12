@@ -29,7 +29,9 @@ Or install it yourself as:
 
   client.status
   client.area_information(id: "eskde-10-fourwaysext10cityofjohannesburggauteng", test: "future")
-  client.areas_nearby(latitude: "-26.0269658", longitude: "28.0137339")
+  client.areas_nearby(latitude: "-26.0269658", longitude: "28.0137339") # Can submit as a Float too
+  client.areas_search(text: "fourways")
+  client.topics_nearby(latitude: "-26.0269658", longitude: "28.0137339") # Can submit as a Float too
   client.check_allowance
 ```
 

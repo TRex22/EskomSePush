@@ -1,10 +1,9 @@
 PATH
   remote: .
   specs:
-    EskomSePush (0.0.1)
+    EskomSePush (0.0.2)
       active_attr (~> 0.15.4)
       httparty (~> 0.21.0)
-      nokogiri (~> 1.14.0.rc1)
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +32,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     ansi (1.5.0)
     builder (3.2.4)
@@ -49,7 +48,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    loofah (2.19.1)
+    loofah (2.20.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     method_source (1.0.0)
@@ -64,9 +63,9 @@ GEM
       ruby-progressbar
     mocha (1.13.0)
     multi_xml (0.6.0)
-    nokogiri (1.14.2-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
-    pry (0.14.1)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
@@ -81,7 +80,7 @@ GEM
       loofah (~> 2.19, >= 2.19.1)
     rake (13.0.6)
     rexml (3.2.5)
-    ruby-progressbar (1.11.0)
+    ruby-progressbar (1.13.0)
     timecop (0.9.6)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -92,7 +91,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
-  arm64-darwin-22
 
 DEPENDENCIES
   EskomSePush!

@@ -25,12 +25,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency "api_pattern", "~> 0.0.1"
 
   # Development dependancies
-  # spec.add_development_dependency "rake", "~> 13.0.6"
-  # spec.add_development_dependency "minitest", "~> 5.18.0"
-  # spec.add_development_dependency "minitest-focus", "~> 1.3.1"
-  # spec.add_development_dependency "minitest-reporters", "~> 1.6.0"
-  # spec.add_development_dependency "timecop", "~> 0.9.6"
-  # spec.add_development_dependency "mocha", "~> 2.0.2"
-  # spec.add_development_dependency "pry", "~> 0.14.2"
-  # spec.add_development_dependency "webmock", "~> 3.18.1"
+  spec.add_development_dependency "rake", "~> 13.0.6"
+  spec.add_development_dependency "minitest", "~> 5.18.0"
+  spec.add_development_dependency "minitest-focus", "~> 1.3.1"
+  spec.add_development_dependency "minitest-reporters", "~> 1.6.0"
+  spec.add_development_dependency "timecop", "~> 0.9.6"
+  spec.add_development_dependency "mocha", "~> 2.0.2"
+  spec.add_development_dependency "pry", "~> 0.14.2"
+  spec.add_development_dependency "webmock", "~> 3.18.1"
 end

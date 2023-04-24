@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "luno"
+require "eskom_se_push"
 
 require "minitest/autorun"
 require 'minitest/focus'

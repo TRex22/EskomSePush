@@ -1,6 +1,8 @@
 require 'httparty'
 require 'nokogiri'
 
+require 'api-pattern'
+
 require 'eskom_se_push/version'
 require 'eskom_se_push/constants'
 

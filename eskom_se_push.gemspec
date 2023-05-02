@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "api_pattern", "~> 0.0.1"
+  spec.add_dependency "api_pattern", "~> 0.0.4"
 
   # Development dependancies
   spec.add_development_dependency "rake", "~> 13.0.6"

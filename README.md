@@ -35,6 +35,10 @@ Or install it yourself as:
   client.areas_search(text: "fourways")
   client.topics_nearby(latitude: "-26.0269658", longitude: "28.0137339") # Can submit as a Float too
   client.check_allowance
+
+  # Historic data polls the EskomSePush Google sheet
+  # Does not need authorisation but Google does throttle calls to their servers
+  client.historic_data
 ```
 
 ### Endpoints
@@ -44,6 +48,7 @@ Or install it yourself as:
 - Areas Search (Text)
 - Topics Nearby
 - Check Allowance
+- Historic Data (Google Sheet returned as CSV)
 - Constants
 
 ## Development
